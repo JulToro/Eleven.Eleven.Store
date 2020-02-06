@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Eleven.Eleven.Store.Application\Eleven.Eleven.Store.Application.csproj" />
+    <ProjectReference Include="..\Eleven.Eleven.Store.Domain\Eleven.Eleven.Store.Domain.csproj" />
+    <ProjectReference Include="..\Eleven.Eleven.Store.Infrastructure\Eleven.Eleven.Store.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="UseCases\" />
+  </ItemGroup>
+
+</Project>
